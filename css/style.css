@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F0F2F5;
+}
+body:hover{
+    background-color: #F0F2F5;
+    background: url(https://cdn.britannica.com/54/187354-050-BE0530AF/Mark-Zuckerberg.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+
+}
+.border{
+    width: 400px;
+    height: 345px;
+    border: 1px solid transparent;
+    box-shadow: 1px 1px 12px -6px black;
+    position: absolute;
+    left: 800px;
+    top: 130px;
+    text-align: center;
+    border-radius:10px ;
+    background: white;
+}
+.inp{
+    width: 365px;
+    height: 50px;
+    margin-top: 12px;
+    border-radius: 5px;
+    border: 1px solid #DDDFE2;
+}
+::placeholder{
+    font-size: 17px;
+    font-weight: 500;
+    color: #90949C;
+    margin-left: 20px;
+}
+.lgn{
+    margin-top: 10px;
+    width: 365px;
+    height: 50px;
+    background: #166FE5;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 16px
+}
+.forgot a{
+    color: #1877F2;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.forgot{
+    margin-bottom: 20px;
+}
+hr{
+    border: 1px solid #DADDE1;
+    max-width: 90%;
+    margin: auto;
+}
+button{
+    background: #36A420;
+    width: 200px;
+    height: 47px;
+    margin-top: 25px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.facebookp{
+    width: 245px;
+}
+.content{
+    margin-left: 29px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.con{
+    margin: 170px 0px 0px 163px;
+}
+.out{
+    position: absolute;
+    left: 845px;
+    top: 500px;
+    font-family: 'Roboto', sans-serif;
+}
+.footer{
+    height: 173px;
+    background: white;
+    margin-top: 363px;
+}
+.footer p{
+    position: absolute;
+    left: 285px;
+    bottom: 21px;
+
+}
